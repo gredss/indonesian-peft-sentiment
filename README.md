@@ -101,7 +101,7 @@ Balancing mitigates class bias, ensuring fairer comparison of PEFT methods. Alth
 
 ---
 
-## 🧩 Experimental Plan
+## Experimental Plan
 
 1. **Fine-tune multiple PEFT strategies** (LoRA, QLoRA, Prefix Tuning, Full Fine-Tuning) using IndoBERT and IndoBERTweet.
 2. **Evaluate efficiency metrics:** GPU memory, fine-tuning time, parameter count.
