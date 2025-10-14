@@ -72,15 +72,21 @@ A variant without stopword removal was also preserved for **controlled experimen
 Before balancing:
 
 ```
-Negative    2817
-Positive    2576
+Happy      1768
+Sadness    1201
+Fear        918
+Love        808
+Anger       698
 ```
 
 After random oversampling:
 
 ```
-Negative    2817
-Positive    2817
+Fear       1768
+Anger      1768
+Happy      1768
+Love       1768
+Sadness    1768
 ```
 
 **Rationale:**
