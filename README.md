@@ -6,9 +6,12 @@ This repository contains the data preparation and preprocessing pipeline for eva
 
 ## Dataset Overview
 
-**Source:** [PRDECT-ID Dataset (Product Review Dataset for Emotion and Customer Text – Indonesia)]
+**Source:** [PRDECT-ID Dataset (Product Review Dataset for Emotion and Customer Text – Indonesia)](https://doi.org/10.1016/j.dib.2022.108554)
+
 **Size:** 5,400 samples (after deduplication: 5,393)
+
 **Domains:** E-commerce product reviews across multiple categories
+
 **Main Fields:**
 
 * `Category` – product category (e.g., Computers and Laptops)
