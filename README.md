@@ -106,7 +106,7 @@ Balancing mitigates class bias, ensuring fairer comparison of PEFT methods. Alth
 | **Number Sold / Total Review** | Broad spread, likely correlated with product popularity.                                                                                        |
 | **Customer Rating**            | Bimodal distribution around 1 and 5 — strong sentiment polarity.                                                                                |
 | **text_len**                   | Median 12 words, long-tailed up to 184. Max token length for modeling ≈ 64.                                                                     |
-| **Emotion**                    | “Happy” dominates (1770 samples), followed by “Sadness” and “Fear.” Emotion-level experiments may require rebalancing or hierarchical modeling. |
+| **Emotion**                    | “Happy” dominates (1770 samples), followed by “Sadness” and “Fear”. |
 
 ---
 
