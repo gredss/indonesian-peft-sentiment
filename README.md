@@ -104,7 +104,7 @@ Balancing mitigates class bias, ensuring fairer comparison of PEFT methods. Alth
 | **Price**                      | Highly skewed (mean ≈ 238k, max = 15.3M). Consider `log1p(Price)` if used as numeric feature.                                                   |
 | **Overall Rating**             | Very narrow range (4.1–5.0), typical positive bias. Limited predictive utility.                                                                 |
 | **Number Sold / Total Review** | Broad spread, likely correlated with product popularity.                                                                                        |
-| **Customer Rating**            | Bimodal distribution around 1 and 5 — strong sentiment polarity.                                                                                |
+| **Customer Rating**            | Bimodal distribution around 1 and 5, strong sentiment polarity.                                                                                |
 | **text_len**                   | Median 12 words, long-tailed up to 184. Max token length for modeling ≈ 64.                                                                     |
 | **Emotion**                    | “Happy” dominates (1770 samples), followed by “Sadness” and “Fear”. |
 
